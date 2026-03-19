@@ -3,6 +3,7 @@ from flask_login import LoginManager, current_user, login_required, login_user, 
 from model.users import Users
 from model.users import db
 import os
+from model.post import Post
 
 from form import RegisterForm
 
